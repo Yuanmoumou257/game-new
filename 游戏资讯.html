@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏资讯网页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>游戏资讯</h1>
+        <nav>
+            <ul>
+                <li><a href="#headlines">头条资讯</a></li>
+                <li><a href="#search">查找资讯</a></li>
+                <li><a href="#messages">留言交友</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="headlines">
+            <h2>头条资讯</h2>
+            <ul id="headline-list">
+                <li>最新游戏《战斗先锋》发布，震撼登场！</li>
+                <li>《迷失的传奇》新版本更新，精彩活动来袭！</li>
+                <li>游戏行业报告：2024年趋势分析</li>
+            </ul>
+        </section>
+
+        <section id="search">
+            <h2>查找游戏资讯</h2>
+            <input type="text" id="search-input" placeholder="输入游戏名称...">
+            <button id="search-button">搜索</button>
+            <div id="search-results"></div>
+        </section>
+
+        <section id="messages">
+            <h2>留言交友</h2>
+            <textarea id="message-input" placeholder="输入你的留言..."></textarea>
+            <button id="submit-button">提交留言</button>
+            <ul id="message-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 游戏资讯网</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
