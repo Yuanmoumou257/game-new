@@ -7,7 +7,7 @@ document.getElementById('search-button').addEventListener('click', function() {
 
     // 这里可以添加游戏资讯的查找逻辑
     if (query) {
-        resultsDiv.innerHTML = `<p>搜索结果：${query} 的资讯暂未上线。</p>`;
+        resultsDiv.innerHTML = `<p>搜索结果：${query} 的资讯暂未上线，我是真不会链接搜索引擎 不行你整死我吧!</p>`;
     } else {
         resultsDiv.innerHTML = '<p>请输入游戏名称进行搜索。</p>';
     }
